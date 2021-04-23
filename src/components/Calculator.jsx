@@ -1,9 +1,8 @@
-import './App.css';
+import './Calculator.css';
 import Header from './Header';
-import Calculator from './Calculator';
 import { useEffect } from 'react';
 
-const App = () => {
+const Calculator = () => {
 
   useEffect(() => {
 
@@ -12,9 +11,8 @@ const App = () => {
   return (
     <>
       <Header />
-      <Calculator />
     </>
   );
 }
 
-export default App;
+export default Calculator;
